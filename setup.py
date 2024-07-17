@@ -11,6 +11,7 @@ setup(
     description='A versatile toolkit for automating Instagram interactions',
     author='Himasha Herath',
     author_email='himasha626@gmail.com',
+    url='https://github.com/HimashaHerath/InstaToolkit',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
