@@ -1,0 +1,11 @@
+README.md
+setup.py
+InstaToolkit.egg-info/PKG-INFO
+InstaToolkit.egg-info/SOURCES.txt
+InstaToolkit.egg-info/dependency_links.txt
+InstaToolkit.egg-info/requires.txt
+InstaToolkit.egg-info/top_level.txt
+instabot/__init__.py
+instabot/bot.py
+tests/__init__.py
+tests/test_bot.py
