@@ -1,14 +1,20 @@
 from setuptools import setup, find_packages
 
+def read(fname):
+    with open(fname, encoding='utf-8') as f:
+        return f.read()
+
 setup(
     name='InstaToolkit',
-    version='0.1.1',
+    version='0.1.2',
     packages=find_packages(),
     install_requires=[
         'requests',
     ],
     python_requires='>=3.6',
     description='A versatile toolkit for automating Instagram interactions',
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown',
     author='Himasha Herath',
     author_email='himasha626@gmail.com',
     url='https://github.com/HimashaHerath/InstaToolkit',

@@ -1,9 +1,9 @@
 import unittest
-from instabot import InstagramBot
+from InstaToolKit import InstagramToolkit
 
 class TestInstagramBot(unittest.TestCase):
     def test_login(self):
-        bot = InstagramBot()
+        bot = InstagramToolkit()
         result = bot.login('test_username', 'test_password')
         self.assertIn('session_id', result)
 

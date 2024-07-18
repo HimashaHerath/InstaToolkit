@@ -2,7 +2,7 @@ import requests
 import json
 from datetime import datetime
 
-class InstagramBot:
+class InstagramToolkit:
     def __init__(self):
         self.session = {}
 
