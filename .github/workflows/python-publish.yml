@@ -2,8 +2,10 @@ name: Publish Python Package
 
 on:
   push:
+    branches:
+      - master  
     tags:
-      - 'v*'
+      - 'v*'    
 
 jobs:
   build-and-upload:
